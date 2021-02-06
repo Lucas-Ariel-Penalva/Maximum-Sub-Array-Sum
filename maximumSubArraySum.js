@@ -1,6 +1,6 @@
 // First solution to the problem with O(n^2) time complexity.
 
-function QuadraticMaxSubarraySum(arr){
+function quadraticMaxSubarraySum(arr){
   
   if (!arr.length) return 0;
   let max = arr[0];
@@ -24,7 +24,7 @@ function QuadraticMaxSubarraySum(arr){
 
 //Second solution with O(n) time complexity using Kadane's Algorithm.
 
-function LinearMaxSubarraySum(arr){
+function linearMaxSubarraySum(arr){
   let max = arr[0];
   let currentSum = max;
 
